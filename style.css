@@ -1,0 +1,93 @@
+body {
+    background-image: url(img/kpn8ygpwcbdmnnqoxf0w.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: gainsboro;
+    border-radius: 3px;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-container {
+    display: flex;
+    max-width: 600px;
+    overflow-x: hidden;
+    background-color:turquoise;
+    border: 2px solid turquoise;
+    border-radius: 3px;
+    box-shadow: 0px 0px 6px rebeccapurple;
+}
+
+.text-container-car {
+    padding: .5rem;
+}
+
+
+.carousel-section {
+    max-width: 600px;
+}
+
+
+.carousel-section img {
+    height: auto;
+    max-width: 600px;
+}
+
+.carousel button {
+    padding: 1rem;
+    background-color: lightcyan;
+    border-radius: 3px;
+}
+
+.carousel button:hover,
+.carousel button:focus
+ {
+    background-color: whitesmoke;
+}
+
+.carousel button:active {
+    background-color: white;
+}
+
+.left-button {
+    position: relative;
+    top: 419px;
+}
+
+.right-button  {
+    position: relative;
+    top: 419px;
+    left: 358px;
+}
+
+@media screen and (min-width: 968px) {
+    .right-button  {
+            left: 493px;
+        }
+}
+
+.no-display {
+    height: initial;
+    width: initial;
+    visibility: hidden;
+}
