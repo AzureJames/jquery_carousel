@@ -24,8 +24,8 @@
     <div class="container">
 
         <div class="carousel">
-            <button class="left-button"><--</button>
-            <button class="right-button">--></button>
+            <button class="left-button carousel-button"><--</button>
+            <button class="right-button carousel-button">--></button>
             <div class="carousel-container">
                 <div class="carousel-section">
                     <img src="img/f4-60c-n.jpg" alt="cold glidewax"></img>

@@ -7,7 +7,6 @@ $(document).ready(function() {
         bg = "lightcyan" ? $(e.target).css("background-color", "lightblue") : $(e.target).css("background-color", "lightcyan");
     } );
     
-    
     let currentLeft;
     let carouselWidth = 600;
     let amtOfImgs = 4;
@@ -34,6 +33,7 @@ $(document).ready(function() {
             $(e.target).css("background-color", "lightcyan");
         }
     });
+
 
 // toggleClass
 // scrollLeft carousel
